@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 // ==========================================================================
-// project     : 
+// project     :
 // author      : @
-// description : ...
+// description :
 // ==========================================================================
 
 
@@ -18,7 +18,16 @@
 // base rules
 // ====================================
 
-@import "base/sanitize";
+@import "tools/normalize";
+// @import "tools/sanitize";
+
+/*
+choisir entre normalize et sanitize selon les préférences de développement CSS :
+" normalize.css and sanitize.css correct browser bugs while carefully testing and documenting changes.
+  normalize.css styles adhere to css specifications. sanitize.css styles adhere to common developer expectations and preferences. reset.css unstyles all elements.
+  Both sanitize.css and normalize.css are maintained in sync. " – Jonathan Neal
+*/
+
 @import "base/base";
 
 

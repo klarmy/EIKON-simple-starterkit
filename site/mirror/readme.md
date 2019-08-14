@@ -1,6 +1,6 @@
 # mirror/
 
-Contient le site à proprement parler. Les dossiers et fichiers présents à ce degré d'arborescence sont essentiellement issus d'Initializr, excepté le dossier /scss.
+Contient le site à proprement parler. Les dossiers et fichiers présents à ce degré d'arborescence sont essentiellement issus de HTML5 Boilerplate, excepté le dossier /scss.
 
 ## /css
 
@@ -32,7 +32,7 @@ Ce dossier contient les scripts et frameworks utiles dans le langage JavaScript.
 
 ## /scss
 
-Ce dossier rassemble toutes les ressources destinées à produire le ou les fichiers css, grâce à un compilateur.
+Ce dossier rassemble toutes les ressources destinées à produire le ou les fichiers css, grâce à un compilateur SCSS.
 
 ## icônes
 

@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 // ==========================================================================
-// project     :
+// project     : 
 // author      : @
-// description :
+// description : 
 // ==========================================================================
 
 
@@ -11,57 +11,55 @@
 // tools and mixins
 // ====================================
 
-@import "tools/variables";
+@import "_variables.scss";
 
 
 // ====================================
 // base rules
+// 
+// choose beetween normalize and sanitize considering your dev requirements :
+//   " normalize.css and sanitize.css correct browser bugs while carefully testing and documenting changes.
+//     normalize.css styles adhere to css specifications. sanitize.css styles adhere to common developer expectations and preferences. reset.css unstyles all elements.
+//     Both sanitize.css and normalize.css are maintained in sync. " – Jonathan Neal
 // ====================================
 
-@import "tools/normalize";
-// @import "tools/sanitize";
+@import "vendor/_normalize.scss";
+// @import "vendor/_sanitize.scss";
 
-/*
-choisir entre normalize et sanitize selon les préférences de développement CSS :
-" normalize.css and sanitize.css correct browser bugs while carefully testing and documenting changes.
-  normalize.css styles adhere to css specifications. sanitize.css styles adhere to common developer expectations and preferences. reset.css unstyles all elements.
-  Both sanitize.css and normalize.css are maintained in sync. " – Jonathan Neal
-*/
-
-@import "base/base";
+@import "_base.scss";
 
 
 // ====================================
 // layout rules
 // ====================================
 
-//@import "layout/layout";
+@import "_layout.scss";
 
 
 // ====================================
 // module rules
 // ====================================
 
-//@import "module/module";
+@import "_module.scss";
 
 
 // ====================================
 // state rules
 // ====================================
 
-//@import "state/state";
+//@import "_state.scss";
 
 
 // ====================================
 // theme rules
 // ====================================
 
-//@import "theme/theme";
+//@import "_theme.scss";
 
 
 // ====================================
 // misc
 // ====================================
 
-@import "tools/helper-classes";
-@import "shame";
+@import "tools/_helper-classes.scss";
+@import "_shame.scss";

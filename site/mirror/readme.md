@@ -24,7 +24,7 @@ Afin de les distinguer, préfixes et suffixes renseigneront sur l'image :
    * suffixe2 : caractérise la résolution (@1x, @2x)
    * extension
 
-P.ex. : icon-user_profil-desktop@2x.png
+P.ex. icon-user_profil-desktop@2x.png
 
 ## /js
 

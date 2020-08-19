@@ -66,8 +66,8 @@ Une documentation complète est présente sur http://robots-txt.com.
 ## Autres dossiers possibles
 
 |-- **assets/** contient les vidéos et l'audio  
-   |-- video  
-   |-- audio  
+|  |-- **video/**  
+|  |-- **audio/**  
 |-- **press/** pour le matériel destiné à la presse et à la communication  
 |-- **fr/** si le site propose son contenu en plus d'une langue, dans ce cas ajouter les dossiers correspondants aux autres langues  
 |-- ...  

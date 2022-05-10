@@ -38,11 +38,9 @@ Ce dossier rassemble toutes les ressources destinées à produire le ou les fich
 
 ## icônes
 
-Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. A conserver dans leurs dimensions initiales.
+Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et dans le navigateur. A conserver dans leurs dimensions initiales.
    * icon.png
-   * favicon.ico (ou favicon.png)
-
-Le fichier browserconfig.xml associe les fichiers correspondants à Internet Explorer et à Edge.
+   * favicon.png (ou favicon.ico)
 
 ## .htaccess
 

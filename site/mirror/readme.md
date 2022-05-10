@@ -41,7 +41,7 @@ Ce dossier rassemble toutes les ressources destinées à produire le ou les fich
 Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et dans le navigateur. A conserver dans leurs dimensions initiales.
    * icon.png
    * favicon.png (ou favicon.ico)
-
+ 
 ## .htaccess
 
 Ce fichier configure le service Apache pour ce projet.

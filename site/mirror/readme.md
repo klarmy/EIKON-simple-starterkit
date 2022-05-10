@@ -42,7 +42,7 @@ Les fichiers suivants sont destinés à produire des représentations iconiques 
    * icon.png
    * favicon.png (ou favicon.ico)
  
-## .htaccess
+## .htaccess
 
 Ce fichier configure le service Apache pour ce projet.
 

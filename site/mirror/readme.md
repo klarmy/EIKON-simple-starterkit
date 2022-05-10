@@ -29,7 +29,6 @@ P.ex. `icon-user_profil-desktop@2x.png`
 ## /js
 
 Ce dossier contient les scripts et frameworks utiles dans le langage JavaScript.
-   * /vendor : rassemble les scripts tierce-partie (modernizer)
    * plugins.js : collecte les plugins, afin de limiter les requêtes http
    * main.js : scripts du site à proprement parler
 
@@ -42,8 +41,6 @@ Ce dossier rassemble toutes les ressources destinées à produire le ou les fich
 Les fichiers suivants sont destinés à produire des représentations iconiques du site sur iOS et Windows 9+. A conserver dans leurs dimensions initiales.
    * icon.png
    * favicon.ico (ou favicon.png)
-   * tile-wide.png
-   * tile.png
 
 Le fichier browserconfig.xml associe les fichiers correspondants à Internet Explorer et à Edge.
 
@@ -64,11 +61,10 @@ Une documentation complète est présente sur http://robots-txt.com.
 ---
 
 ## Autres dossiers possibles
-
+ 
 ```
-+-- assets/ contient les vidéos et l'audio  
-|  +-- video/  
-|  +-- audio/  
++-- video/  contient les vidéos
++-- audio/  contient l'audio  
 +-- press/ pour le matériel destiné à la presse et à la communication  
 +-- fr/ si le site propose son contenu en plus d'une langue, dans ce cas ajouter les dossiers correspondants aux autres langues  
 +-- ...
